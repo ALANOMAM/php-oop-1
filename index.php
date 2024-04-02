@@ -25,15 +25,23 @@
 
  $movie1 = new Movie("TITANIC","1997","Leonardo Di Caprio");
  $movie1->stars = 4;
- var_dump($movie1);
+  //var_dump($movie1);
  //chiamo il metodo presente nella mia classe per l'oggetto 1
- $movie1->ratings();
+ //$movie1->ratings();
 
  $movie2 = new Movie("CAPTAIN PHILLIPS","2013","Tom Hanks");
  $movie2->stars = 5;
- var_dump($movie2);
+ //var_dump($movie2);
   //chiamo il metodo presente nella mia classe per l'oggetto 2
- $movie2->ratings();
+ //$movie2->ratings();
+
+
+ //creo un array che contiene i miei films
+ $movies = [
+    $movie1,
+    $movie2,
+ ];
+ var_dump($movies)
 
 ?>
 
@@ -49,7 +57,7 @@
 
 
 
- <h1>titolo</h1>
+
     
 </body>
 </html>
