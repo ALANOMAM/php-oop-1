@@ -17,8 +17,11 @@
  //fine classe
 
 
- $movie1 = new Movie("TITANIC","2000","leonardo di caprio");
- var_dump($movie1)
+ $movie1 = new Movie("TITANIC","1997","Leonardo Di Caprio");
+ var_dump($movie1);
+
+ $movie2 = new Movie("CAPTAIN PHILLIPS","2013","Tom Hanks");
+ var_dump($movie2)
 
 ?>
 
