@@ -1,6 +1,7 @@
 <?php
  //inizio classe
  class Movie{
+    public $image;
     public $title;
     public $year;
     public $mainCharacter;
@@ -28,6 +29,7 @@
 
 
  $movie1 = new Movie("TITANIC","1997","Leonardo Di Caprio");
+ $movie1->image = "./img/titanic.jpg";
  //imposto il numero di stelle del film 1
  $movie1->stars = 4;
  //imposto i vari generi  del film 2
@@ -40,6 +42,7 @@
  //------------------------------------------------------------------------
 
  $movie2 = new Movie("CAPTAIN PHILLIPS","2013","Tom Hanks");
+ $movie2->image = "./img/captain-phillips.jpg";
  //imposto il numero di stelle del film 2
  $movie2->stars = 5;
  //imposto i vari generi  del film 2
@@ -95,6 +98,7 @@
 
     ?>
  </ul>
+
 </div>
 
 
