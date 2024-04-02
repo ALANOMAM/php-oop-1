@@ -54,7 +54,19 @@
 </head>
 <body>
 
+ <ul>
+   <?php
+    foreach($movies as $movie){
+        echo "
+        <li>
+            ". $movie->title . ", " . $movie->mainCharacter . ", " . $movie->year. "
+        </li>";
 
+
+    }
+
+    ?>
+ </ul>
 
 
 
