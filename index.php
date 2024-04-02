@@ -1,5 +1,18 @@
 <?php
+ 
+ class Movie{
+    public $title;
+    public $date;
+    public $mainCharacter;
+    public $discription;
+  
+  public __construct(){
+    $this->
+  }
 
+
+
+ }
 
 
 
