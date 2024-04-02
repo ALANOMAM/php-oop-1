@@ -6,8 +6,11 @@
     public $mainCharacter;
     public $discription;
   
-  public __construct(){
-    $this->
+  function __construct($_title, $_date , $_mainCharacter) {
+
+    $this->title = $_title;
+    $this->date = $_date;
+    $this->mainCharacter = $_mainCharacter;
   }
 
 
@@ -26,6 +29,8 @@
     <title>OOP</title>
 </head>
 <body>
+
+ <h1>titolo</h1>
     
 </body>
 </html>
