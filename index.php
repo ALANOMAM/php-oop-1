@@ -1,6 +1,7 @@
 <?php
+
  //inizio classe
- class Movie{
+ /*class Movie{
     public $image;
     public $title;
     public $year;
@@ -24,10 +25,12 @@
     echo "This movie has ". $this->stars." stars";
  }
 
- }
+ } */
  //fine classe
 
+ //require './Models/Movie.php';
 
+ /*
  $movie1 = new Movie("TITANIC","1997","Leonardo Di Caprio");
  $movie1->image = "./img/titanic.jpg";
  //imposto il numero di stelle del film 1
@@ -61,6 +64,8 @@
     $movie2,
  ];
  var_dump($movies)
+ */
+ require './db.php'
 
 ?>
 
@@ -88,6 +93,12 @@
  <ul>
    <?php
     foreach($movies as $movie){
+        echo "
+        <img
+            src= $movie->image , 
+        />";
+
+
         echo "
         <li>
             ". $movie->title . ", " . $movie->mainCharacter . ", " . $movie->year. ", ". $movie->genre[0]. ",
